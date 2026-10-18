@@ -1,0 +1,33 @@
+Command: cmake -G Ninja -B /home/josepepito/Projects/SBC/R1/build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/home/josepepito/.espressif/python_env/idf6.0_py3.14_env/bin/python -DESP_PLATFORM=1 -DCCACHE_ENABLE=False /home/josepepito/Projects/SBC/R1
+CMake Warning (deprecated) at CMakeLists.txt:3 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+This warning is for project developers.  Use -Wno-author or -Wno-deprecated
+to suppress it.
+
+NOTE: /opt/esp-idf/components/bt/host/nimble/Kconfig.in:1421: BT_NIMBLE_MESH_PROVISIONER: 'default 0' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /opt/esp-idf/components/bt/controller/esp32/Kconfig.in:177: BTDM_CTRL_LEGACY_AUTH_VENDOR_EVT_EFF: 'default 0' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /opt/esp-idf/components/fatfs/Kconfig:230: FATFS_PRINT_LLI: 'default 0' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /opt/esp-idf/components/fatfs/Kconfig:235: FATFS_PRINT_FLOAT: 'default 0' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /opt/esp-idf/components/bootloader/Kconfig.projbuild:385: Deprecation notice: hex literal '0' without '0x' prefix detected. In the next major version, hex literals will be required to have a '0x' prefix.
+NOTE: /opt/esp-idf/components/bootloader/Kconfig.projbuild:425: Deprecation notice: hex literal '0' without '0x' prefix detected. In the next major version, hex literals will be required to have a '0x' prefix.
+NOTE: /opt/esp-idf/components/bt/common/Kconfig.in:131: Deprecation notice: hex literal '0' without '0x' prefix detected. In the next major version, hex literals will be required to have a '0x' prefix.
+NOTE: /opt/esp-idf/components/bt/host/nimble/Kconfig.in:1016: Deprecation notice: hex literal '0' without '0x' prefix detected. In the next major version, hex literals will be required to have a '0x' prefix.
+NOTE: /opt/esp-idf/components/bt/controller/esp32/Kconfig.in:542: Deprecation notice: hex literal '0' without '0x' prefix detected. In the next major version, hex literals will be required to have a '0x' prefix.
+NOTE: /opt/esp-idf/components/esp_hw_support/./lowpower/port/esp32p4/Kconfig.p4_rev3_mspi_workaround:6: Deprecation notice: hex literal '0' without '0x' prefix detected. In the next major version, hex literals will be required to have a '0x' prefix.
+NOTE: /opt/esp-idf/components/esp_mm/Kconfig:20: Deprecation notice: hex literal '0' without '0x' prefix detected. In the next major version, hex literals will be required to have a '0x' prefix.
+NOTE: /opt/esp-idf/components/esp_system/./port/soc/esp32/Kconfig.memory:24: Deprecation notice: hex literal '0' without '0x' prefix detected. In the next major version, hex literals will be required to have a '0x' prefix.
+NOTE: /opt/esp-idf/components/openthread/Kconfig:106: Deprecation notice: hex literal '0' without '0x' prefix detected. In the next major version, hex literals will be required to have a '0x' prefix.
+NOTE: Kconfig parser version: 1
+NOTE: Kconfig defaults policy: use sdkconfig
+NOTE: Status: Finished with notifications
+NOTE: /opt/esp-idf/components/partition_table/Kconfig.projbuild:129: PARTITION_TABLE_CUSTOM_FILENAME has user-set value partitions.csv from /home/josepepito/Projects/SBC/R1/sdkconfig but is not visible (disabled dependency)
+NOTE: /opt/esp-idf/components/esp_stdio/Kconfig:150: ESP_CONSOLE_UART_BAUDRATE has user-set value 115200 from /home/josepepito/Projects/SBC/R1/sdkconfig but is not visible (disabled dependency)
+fatal: detected dubious ownership in repository at '/opt/esp-idf/components/openthread/openthread'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/esp-idf/components/openthread/openthread

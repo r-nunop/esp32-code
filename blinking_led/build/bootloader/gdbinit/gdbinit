@@ -1,0 +1,2 @@
+source /home/josepepito/Projects/SBC/R1/build/bootloader/gdbinit/symbols
+source /home/josepepito/Projects/SBC/R1/build/bootloader/gdbinit/connect
